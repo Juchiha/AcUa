@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class DbConnection {
 	/*Declaramos las variables de acceso a la base de datos*/
-	static String datB = "DESARROLLO";
-	static String user = "desarrollo";
-	static String pass = "teSt_Acad";
-	static String serv = "jdbc:oracle:thin:@10.0.0.76:1521/misgard";
+	static String datB = "jose";
+	static String user = "jose";
+	static String pass = "jose";
+	static String serv = "jdbc:oracle:thin:@1localhost:1521/thor";
 	
 	//Variable para la conexion
 	Connection conn = null;
